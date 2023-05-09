@@ -1,7 +1,9 @@
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className="h-header bg-main w-full">
+      <h1 className="text-h1 text-star font-bold underline">
+        Hello world!
+      </h1>
+    </div>
   )
 }
